@@ -9,8 +9,6 @@ from dotenv import load_dotenv
 from src.prompt import *
 import os
 
-from store_index import GROQ_API_KEY
-
 
 app = Flask(__name__)
 
